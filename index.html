@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting</title>
+    <!-- Include Chart.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+  
+
+    <h2>Vote for Your Favorite Option</h2>
+
+    <div class="options" id="options-container">
+        <!-- Options will be dynamically added here -->
+    </div>
+
+    <button onclick="submitVote()">Submit Vote</button>
+    <button onclick="supmitInfo()" >Privacy</button>
+
+
+
+    <h3>Vote Results</h3>
+    <div style="width: 85%; margin: auto;">
+        <canvas id="voteChart"></canvas>
+    </div>
+    <script src="stemmeteller.js"></script>
+        <!-- Include Chart.js library -->
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>
